@@ -1,3 +1,97 @@
-// Place all the styles related to the diets controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+li,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  color: #3b4043;
+}
+
+
+.wrapper {
+  display: flex;
+}
+.side-bar {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: 0,0,200px,0;
+  border: solid  #3b4043;
+}
+
+.image-area {
+  background-color: white;
+  height: 800px;
+  border:0.25px solid  #0000;
+}
+
+.cal-answer {
+  background-color: lightgrey;
+  height: 200px;
+}
+
+
+.right-area {
+  background-color: #FFFFFF;
+  width: calc(100vw - 300px);
+  border: 0.25px solid #0000;
+}
+
+/* ヘッダー */
+
+.top-page-header {
+  background-color: #f1f8fe;
+  height: 100px;
+  // margin-bottom: 48px;
+  padding: 20px 0;
+
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  font-size: 30px;
+
+}
+
+
+
+.lists-right {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.lists-left li {
+  margin-right: 10px;
+}
+
+.lists-left li:last-child {
+  margin-right: 0;
+}
+
+
+/* フッター */
+
+footer {
+  background-color: #999;
+  padding: 10px 0;
+
+}

@@ -1,2 +1,37 @@
-<h1>Diets#index</h1>
-<p>Find me in app/views/diets/index.html.erb</p>
+<%= render "header"%>
+
+<div class="wrapper">
+
+    <div class="side-bar">
+
+      <div class="image-area">
+        </div>
+      <div class="cal-answer">
+      </div>
+
+    </div>
+
+    <div class="right-area">
+      <div>
+        <form action="/save" method="post">
+          <label for="breakfast">朝食:</label>
+          <input type="number" name="breakfast" id="breakfast" class="input-font">
+          <br>
+          <label for="lunch">昼食:</label>
+          <input type="number" name="lunch" id="lunch">
+          <br>
+          <label for="dinner">夕食:</label>
+          <input type="number" name="dinner" id="dinner">
+          <br>
+          <label for="snack">間食:</label>
+          <input type="number" name="snack" id="snack">
+          <br>
+          <label for="motion">運動量:</label>
+          <input type="number" name="motion" id="motion">
+          <br>
+          <input type="submit" value="登録">
+        </form>
+      </div>
+    </div>
+</div>
+<%# <%= render "footer"%>

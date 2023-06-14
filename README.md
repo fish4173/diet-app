@@ -19,7 +19,7 @@
 * has_many :diets
 
 
-## items table
+## diets table
 
 | Column                              | Type       | Options                        |
 |-------------------------------------|------------|--------------------------------|
